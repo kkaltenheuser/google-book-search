@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kkaltenheuser/google-book-search/issues"
   },
-  "homepage": "https://github.com/kkaltenheuser/google-book-search#readme"
+  "homepage": "https://github.com/kkaltenheuser/google-book-search#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
