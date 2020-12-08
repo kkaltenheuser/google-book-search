@@ -1,0 +1,19 @@
+{
+  "name": "hw-wk14-cu-09-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkaltenheuser/google-book-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkaltenheuser/google-book-search/issues"
+  },
+  "homepage": "https://github.com/kkaltenheuser/google-book-search#readme"
+}
