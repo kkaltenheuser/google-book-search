@@ -7,14 +7,14 @@ module.exports = {
         db.Book.find(req.query).sort({ date: -1 }).then(books => {
             res.json(books)
         }).catch(err => {
-            res.status(404).json(err)
+            res.status(418).json(err)
         })
     },
     create: (req, res) => {
         db.Book.create(req.body).then(book => {
             res.json(book)
         }).catch(err => {
-            res.status(404).json(err)
+            res.status(418).json(err)
         })
     },
     remove: (req, res) => {
@@ -23,7 +23,7 @@ module.exports = {
         }).then(book => {
             res.json(book)
         }).catch(err => {
-            res.status(404).json(err)
+            res.status(418).json(err)
         })
     }
 }
